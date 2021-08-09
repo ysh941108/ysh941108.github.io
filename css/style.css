@@ -26,6 +26,16 @@ input,textarea {
 	outline:none;
 }
 
+.flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+}
+/*flexbox.help*/
+
 .clearfix {
 	clear: both;
 }
@@ -86,20 +96,143 @@ input,textarea {
 }
 
 #main .left{
-	float: left;
-	width: 30%;
-	height: 1000px;
-	background: white;
+	border-radius: 10px;
+	margin-right: 50px;
+	width: 500px;
+	background: #d2d3d4;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
 
-	margin-left: 5%;
+.left .introduce-1.oness{
+	position: relative;
+	flex-wrap: wrap;
+	width: 400px;
+	border-radius: 10px;
+	border: solid 1px black;
+	margin-top: 30px;
+	padding: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+.introduce-1 h2{
+	position: absolute;
+	width: 200px;
+	display: inline-block;
+	color : black;
+	text-align: center;
+}
+.introduce-1 li:first-child {
+	margin-top: 100px;
+}
+
+.introduce-1 li{
+	margin-bottom: 30px;
+}
+
+.introduce-1 li .technology{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	display: inline-block;
+}
+
+.introduce-1 li .technology-p{
+	font-size: 20px;
+}
+
+.introduce-1 li .percent{
+	position: relative;
+	width: 300px;
+	height: 4px;
+	background-color: darkred;
+	margin-top: 5px;
+}
+
+.introduce-1 li .percents{
+	position: absolute;
+	width: 50%;
+	height: 4px;
+	background-color: blue;
+	margin-bottom: 5px;
+}
+
+.introduce-1 li .percentp{
+	margin-top: 5px;
+	display: inline-block;
+	font-size: 15px;
+}
+
+.introduce-1 li .technology.one .percents{
+	width: 66%;
+}
+
+
+.introduce-1 li .technology.two .percents{
+	width: 66%;
+}
+
+.introduce-1 li .technology.three .percents{
+	width: 33%;
+}
+
+.introduce-1 li .technology.four .percents{
+	width: 33%;
+}
+
+.introduce-1 li .technology.five .percents{
+	width: 33%;
+}
+
+
+.left .introduce-1.twoss{
+	position: relative;
+	flex-wrap: wrap;
+	width: 400px;
+	border-radius: 10px;
+	border: solid 1px black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.introduce-1 li .technology.six .percents{
+	width: 66%;
+}
+
+.introduce-1 li .technology.seven .percents{
+	width: 66%;
+}
+
+.introduce-1 li .technology.eight .percents{
+	width: 66%;
+}
+
+.introduce-1 li .technology.nine .percents{
+	width: 100%;
+}
+
+.introduce-1 li .technology.ten .percents{
+	width: 100%;
+}
+
+.introduce-1 li .technology.eleven .percents{
+	width: 66%;
 }
 
 #main .right{
-	float: right;	
-	width: 55%;
+	width: 1000px;
 	height: 1000px;
 	background: white;
-
-	margin-right: 5%;
+	justify-content: flex-start;
 }
 
+#footer{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
