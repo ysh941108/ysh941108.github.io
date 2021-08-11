@@ -86,7 +86,7 @@ input,textarea {
 }
 
 #body{
-	background-color: #ddd;
+	background-color: #e9e8e7;;
 }
 
 #main{
@@ -114,6 +114,7 @@ input,textarea {
 	padding: 20px;
 	left: 50%;
 	transform: translateX(-50%);
+	background: #d9e1e7;
 }
 
 
@@ -197,6 +198,7 @@ input,textarea {
 	padding: 20px;
 	left: 50%;
 	transform: translateX(-50%);
+	background: #d9e1e7;
 }
 
 .introduce-1 li .technology.six .percents{
@@ -225,15 +227,124 @@ input,textarea {
 
 #main .right{
 	width: 1000px;
-	height: 1000px;
 	background: white;
 	justify-content: flex-start;
+	border-radius: 10px;
+	background: #d2d3d4;
+}
+
+.right .introduce-me{
+	position: relative;
+	border-radius: 20px;
+	border: solid 2px black;
+	width: 800px;
+	height: 200px;
+	margin: 50px 100px 30px;
+	background: #d9e1e7;
+}
+
+.right .introduce-me h2{
+	font-size: 30px;
+	padding: 15px 5px 0;
+	width: 35%;
+	text-align: center;
+}
+
+.right .introduce-me p{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	border-left: solid 5px #000002;
+	padding: 25px;
+	line-height: 31px;
+	width: 65%;
+	height: 100%;
 }
 
 .right .project-name{
-	width: 50%;
-	height: 50px;
+	position: relative;
+	left: 30px;
+	font-size: 20px;
 }
+
+.right .project-1{
+	position: relative;
+	border-radius: 10px;
+	border: solid 1px black;
+	margin:40px;
+	background: #d9e1e7;
+}
+
+.right .project-1 h3{
+	position: absolute;
+	font-size: 25px;
+	top: 30px;
+	left: 30px;
+}
+
+.right .project-1 .pro-1-wrap{
+	position: relative;
+	margin: 80px 0 30px;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+
+.right .project-1 .pro-1-wrap img{
+	height: 100%;
+	width: 50%;
+	border-radius: 10px;
+	border: solid 2px darkred;
+	margin-left: 50px;
+}
+
+.right .project-1 .pro-1-wrap .pro-div{
+	position: relative;
+	width: 50%;
+	height: 200px;
+	flex-wrap: wrap;
+	margin-right: 50px;
+}
+
+.right .project-1 .pro-1-wrap .pro-div .pro-span1{
+	position: absolute;
+	top: 10px;
+	display: block;
+	height: 100%;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.right .project-1 .pro-1-wrap .pro-div .pro1-btn{
+	position: relative;
+	top : 150px;
+	justify-content: space-between;
+}
+
+.right .project-1 .pro-1-wrap .pro-div .pro1-a1,
+.right .project-1 .pro-1-wrap .pro-div .pro1-a2 {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	margin-right: 5px;
+	border: solid 2px skyblue;
+	background-color: #525292;
+	color: white;
+	padding: 5px;
+}
+
+.right .project-1 .pro-1-wrap .pro-div .pro1-a2{
+	margin-left: 5px;
+}
+
+.right .project-1 .pro-1-wrap .pro-div .pro1-a1:hover,
+.right .project-1 .pro-1-wrap .pro-div .pro1-a2:hover{
+	transform: scale(1.2);
+}
+
+
 
 #footer{
 	width: 100%;
